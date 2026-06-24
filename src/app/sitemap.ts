@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { tools } from "@/lib/tools";
 
-const BASE_URL = "https://quickkit.dev";
+const BASE_URL = "https://quickkit-nine.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const toolPages = tools.map((tool) => ({
