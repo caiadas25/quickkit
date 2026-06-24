@@ -88,4 +88,28 @@ export const tools: Tool[] = [
     icon: "✍️",
     href: "/tools/markdown-preview",
   },
+  {
+    id: "text-diff",
+    title: "Text Diff",
+    description: "Compare two pieces of text side by side and see what changed.",
+    category: "Developer",
+    icon: "🔀",
+    href: "/tools/text-diff",
+  },
+  {
+    id: "url-encoder",
+    title: "URL Encoder/Decoder",
+    description: "Encode text to URL-safe strings or decode URL-encoded text back to plain text.",
+    category: "Developer",
+    icon: "🌐",
+    href: "/tools/url-encoder",
+  },
+  {
+    id: "jwt-decoder",
+    title: "JWT Decoder",
+    description: "Decode JSON Web Tokens to view their header, payload, and signature.",
+    category: "Developer",
+    icon: "🎫",
+    href: "/tools/jwt-decoder",
+  },
 ];
