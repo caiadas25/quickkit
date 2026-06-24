@@ -1,13 +1,13 @@
 # QuickKit — 30-Day Growth Journal
 
-**Site:** [quickkit-nuno-caiadas-projects.vercel.app](https://quickkit-nuno-caiadas-projects.vercel.app)
+**Site:** [quickkit-nine.vercel.app](https://quickkit-nine.vercel.app)
 **Repo:** [github.com/caiadas25/quickkit](https://github.com/caiadas25/quickkit)
 **Theme:** Free online developer tools — fast, no signup, no ads.
 **Goal:** Drive organic traffic through SEO + social sharing in 30 days.
 
 ---
 
-## Day 1 — May 29, 2026
+## Day 1 — June 24, 2026
 
 ### What was built
 - Created Next.js app with 10 fully functional tools:
