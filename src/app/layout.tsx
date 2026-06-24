@@ -19,6 +19,21 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    title: "QuickKit — Free Online Developer Tools",
+    description:
+      "Free online developer and productivity tools. Format JSON, generate UUIDs, convert colors, create QR codes, and more — fast, no signup required.",
+    url: "https://quickkit-nine.vercel.app",
+    siteName: "QuickKit",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "QuickKit — Free Online Developer Tools",
+    description:
+      "Free online developer and productivity tools. Format JSON, generate UUIDs, convert colors, create QR codes, and more — fast, no signup required.",
+  },
+  metadataBase: new URL("https://quickkit-nine.vercel.app"),
 };
 
 export default function RootLayout({
