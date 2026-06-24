@@ -10,6 +10,7 @@ export default function Header() {
         </Link>
         <nav className="hidden sm:flex items-center gap-6 text-sm font-medium text-slate-600">
           <Link href="/" className="hover:text-indigo-600 transition-colors">All Tools</Link>
+          <Link href="/blog" className="hover:text-indigo-600 transition-colors">Blog</Link>
         </nav>
       </div>
     </header>
