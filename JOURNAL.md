@@ -10,7 +10,7 @@
 ## Day 1 — June 24, 2026
 
 ### What was built
-- Created Next.js app with 10 fully functional tools:
+- Created Next.js app with 13 fully functional tools:
   1. JSON Formatter/Validator
   2. Base64 Encode/Decode
   3. UUID Generator
@@ -21,6 +21,9 @@
   8. Hash Generator (SHA-1/256/512)
   9. QR Code Generator (with PNG download)
   10. Markdown Preview (split-pane live editor)
+  11. Text Diff (side-by-side with color-coded changes)
+  12. URL Encoder/Decoder (with encodeURI vs encodeURIComponent info)
+  13. JWT Decoder (auto-decode, color-coded header/payload/signature)
 
 ### Infrastructure
 - GitHub repo: `caiadas25/quickkit`
@@ -41,7 +44,7 @@
 ### Metrics
 - **Traffic:** 0 (just deployed)
 - **Pages indexed:** 0 (needs Google Search Console setup)
-- **Tools live:** 10
+- **Tools live:** 13
 
 ### Next steps
 - Submit to Reddit r/webdev "Show HN" style post
