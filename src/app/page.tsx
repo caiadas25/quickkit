@@ -1,11 +1,54 @@
 import Link from "next/link";
+import Script from "next/script";
 import { tools } from "@/lib/tools";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const siteUrl = "https://quickkit-nine.vercel.app";
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "QuickKit",
+  url: siteUrl,
+  description: "Free online developer and productivity tools",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${siteUrl}/?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  itemListElement: tools.map((tool, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: tool.title,
+    url: `${siteUrl}${tool.href}`,
+    description: tool.description,
+  })),
+};
+
 export default function Home() {
   return (
     <>
+      <Script
+        id="jsonld-website"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <Script
+        id="jsonld-itemlist"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       <Header />
       <main className="flex-1">
         {/* Hero */}

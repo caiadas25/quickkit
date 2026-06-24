@@ -112,4 +112,28 @@ export const tools: Tool[] = [
     icon: "🎫",
     href: "/tools/jwt-decoder",
   },
+  {
+    id: "timestamp-converter",
+    title: "Timestamp Converter",
+    description: "Convert between Unix timestamps, ISO 8601, RFC 2822, and relative time formats.",
+    category: "Developer",
+    icon: "🕐",
+    href: "/tools/timestamp-converter",
+  },
+  {
+    id: "regex-tester",
+    title: "Regex Tester",
+    description: "Test regular expressions with live highlighting, match details, and common presets.",
+    category: "Developer",
+    icon: "🔍",
+    href: "/tools/regex-tester",
+  },
+  {
+    id: "text-case",
+    title: "Text Case Converter",
+    description: "Convert text between UPPERCASE, lowercase, camelCase, snake_case, and more.",
+    category: "Productivity",
+    icon: "🔤",
+    href: "/tools/text-case",
+  },
 ];
