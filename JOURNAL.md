@@ -10,7 +10,7 @@
 ## Day 1 — June 24, 2026
 
 ### What was built
-- Created Next.js app with 13 fully functional tools:
+- Created Next.js app with 16 fully functional tools:
   1. JSON Formatter/Validator
   2. Base64 Encode/Decode
   3. UUID Generator
@@ -24,6 +24,9 @@
   11. Text Diff (side-by-side with color-coded changes)
   12. URL Encoder/Decoder (with encodeURI vs encodeURIComponent info)
   13. JWT Decoder (auto-decode, color-coded header/payload/signature)
+  14. Timestamp Converter (Unix/ISO/RFC/relative time)
+  15. Regex Tester (highlighted matches, preset patterns)
+  16. Text Case Converter (10 formats: UPPER, lower, camel, snake, etc.)
 
 ### Infrastructure
 - GitHub repo: `caiadas25/quickkit`
@@ -44,10 +47,19 @@
 ### Metrics
 - **Traffic:** 0 (just deployed)
 - **Pages indexed:** 0 (needs Google Search Console setup)
-- **Tools live:** 13
+- **Tools live:** 16
+
+### SEO progress
+- Added Open Graph + Twitter Card metadata to root layout
+- Added JSON-LD structured data (WebSite + ItemList schemas) to homepage
+- All 16 tool pages have SEO-optimized titles, meta descriptions, and FAQ sections
+- Sitemap auto-generates from tools array
+- Clean URL structure (/tools/tool-name)
 
 ### Next steps
 - Submit to Reddit r/webdev "Show HN" style post
-- Add structured data (JSON-LD) to each tool page for rich snippets
+- ~~Add structured data (JSON-LD) to each tool page for rich snippets~~ DONE
+- Add JSON-LD to individual tool pages (SoftwareApplication schema)
 - Research additional high-volume tool keywords for Day 2 expansion
 - Set up Google Search Console verification
+- Add a blog section for content marketing
