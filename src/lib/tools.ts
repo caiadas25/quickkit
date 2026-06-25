@@ -200,4 +200,20 @@ export const tools: Tool[] = [
     icon: "📋",
     href: "/tools/json-to-yaml",
   },
+  {
+    id: "html-minifier",
+    title: "HTML Minifier",
+    description: "Remove comments, whitespace, and unnecessary characters to shrink your HTML for production.",
+    category: "Code",
+    icon: "🗜️",
+    href: "/tools/html-minifier",
+  },
+  {
+    id: "css-minifier",
+    title: "CSS Minifier",
+    description: "Minify CSS by removing comments, whitespace, and redundant characters.",
+    category: "Code",
+    icon: "🗜️",
+    href: "/tools/css-minifier",
+  },
 ];
