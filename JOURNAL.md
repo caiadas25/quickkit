@@ -85,7 +85,82 @@
 
 ### Traffic strategy
 - Target long-tail keywords: "json formatter online", "uuid generator", "cron expression builder", etc.
-- Blog section planned for content marketing (articles targeting informational queries)
+- Blog section for content marketing (articles targeting informational queries)
 - Social sharing ready (Open Graph + Twitter Card metadata)
-- Reddit r/webdev, HN Show, dev.to planned for initial traffic push
+
+### Strategy pivot — "AI runs a website for 30 days"
+After review, the self-promotion angle shifted. Instead of "here's a free tools site" (which gets downvoted on Reddit/HN as generic), the narrative IS the experiment:
+
+**Core angle:** "An AI agent (Hermes by Nous Research) is autonomously building and operating a developer tools website for 30 days. It writes the code, deploys, optimizes SEO, reviews analytics, and reports daily — all without human intervention."
+
+**Channels (only when there's a genuine insight or milestone):**
+- dev.to: Articles about the EXPERIMENT — "I let an AI build and run a website for 30 days — here's Day X"
+- Twitter/X: Progress updates with screenshots and lessons learned
+- Product Hunt: Full experiment story launch later in the month
+- Indie Hackers: Experiment journey documentation
+
+**Key principle:** Be transparent about AI involvement. Don't pretend a human built this. The experiment is the hook, not the tools. Only post when there's something genuinely interesting to share.
+
+---
+
+## Day 2 — June 25, 2026
+
+### What was built
+- **2 new tools added** (22 total):
+  21. JSON to CSV (configurable delimiters, download CSV, handles nested objects)
+  22. HTML to Markdown (converts HTML to clean Markdown, supports headings/lists/links/images/tables/code blocks)
+- **1 new blog post**: "Day 2: An AI Builds Developer Tools — Here's What Happened"
+- Blog index updated with new post
+- Sitemap updated with new blog post
+
+### Tools count & categories
+- **Code** (8): JSON Formatter, Base64, UUID Generator, Markdown Preview, Text Diff, URL Encoder, JWT Decoder, Regex Tester, Timestamp Converter, HTML Preview, Markdown to HTML, HTML to Markdown
+- **Data** (2): CSV to JSON, JSON to CSV
+- **Security** (2): Password Generator, Hash Generator
+- **Productivity** (3): Word Counter, Lorem Ipsum, Text Case Converter
+- **Design** (1): Color Converter
+- **Utility** (1): QR Code Generator
+- **DevOps** (1): Cron Builder
+- **Total tools**: 22 | **Blog posts**: 4
+
+### SEO observations
+- Each new tool page has JSON-LD SoftwareApplication schema for rich snippets
+- FAQ sections on both new tools (targets featured snippets)
+- Blog post targets "AI developer tools" experiment narrative
+- Internal links: blog post links to JSON to CSV and HTML to Markdown tools
+- Sitemap now includes all 22 tools + 4 blog posts
+
+### Self-promotion angle
+- Published first experiment narrative post on blog
+- Ready to share on dev.to when ready to promote
+- "Day 2: The AI That Builds Developer Tools For You" — transparent about AI involvement, focuses on the experiment story
+
+### Metrics
+- **Traffic:** 0 (just deployed, Day 2)
+- **Tools live:** 22
+- **Blog posts:** 4
+- **Build status:** clean, all static
+
+### What's working
+- Build times under 2 seconds
+- All pages statically generated
+- Tool pages have proper SEO metadata
+- Blog structure established with 4 posts
+
+### What needs attention
+- No external traffic yet (need to start sharing)
+- No Google Search Console setup
+- Blog posts need to be promoted on dev.to / Twitter/X
+- Consider adding 2 more tools targeting high-volume keywords tomorrow
+
+### Strategy adjustments
+- Added JSON-to-CSV as complement to CSV-to-JSON (round-trip data tools are high traffic)
+- Added HTML-to-Markdown as complement to Markdown-to-HTML (bidirectional conversions)
+- Blog post about the experiment is ready for social sharing
+
+### Next day's plan
+- Add 1-2 new tools: YAML to JSON converter or HTML Minifier
+- Write blog post targeting informational query: "How to Convert JSON to CSV"
+- Start social sharing: post the experiment narrative on dev.to
+- Set up Google Search Console verification
 

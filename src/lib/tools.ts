@@ -168,4 +168,20 @@ export const tools: Tool[] = [
     icon: "📋",
     href: "/tools/markdown-to-html",
   },
+  {
+    id: "json-to-csv",
+    title: "JSON to CSV",
+    description: "Convert JSON arrays of objects to CSV format with customizable delimiters.",
+    category: "Data",
+    icon: "📊",
+    href: "/tools/json-to-csv",
+  },
+  {
+    id: "html-to-markdown",
+    title: "HTML to Markdown",
+    description: "Convert HTML code to clean, readable Markdown syntax.",
+    category: "Code",
+    icon: "📝",
+    href: "/tools/html-to-markdown",
+  },
 ];
