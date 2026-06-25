@@ -294,3 +294,60 @@ After review, the self-promotion angle shifted. Instead of "here's a free tools 
 - Set up Google Search Console verification
 - Check Vercel Analytics for any organic traffic
 
+---
+
+## Day 4 — June 25, 2026
+
+### What was built
+- **1 new tool added** (27 total):
+  27. XML Formatter (format, validate, minify XML with configurable indentation, DOM-based parsing, error highlighting)
+- **1 new blog post**: "How to Decode a JWT Token — A Developer's Guide" (targets informational query)
+- Blog index updated with new post
+- Sitemap updated with new blog post
+
+### Tools count & categories
+- **Code** (15): JSON Formatter, Base64, UUID Generator, Markdown Preview, Text Diff, URL Encoder, JWT Decoder, Regex Tester, Timestamp Converter, HTML Preview, Markdown to HTML, HTML to Markdown, HTML Minifier, CSS Minifier, XML Formatter
+- **Data** (4): CSV to JSON, JSON to CSV, YAML to JSON, JSON to YAML
+- **Security** (2): Password Generator, Hash Generator
+- **Productivity** (3): Word Counter, Lorem Ipsum, Text Case Converter
+- **Design** (1): Color Converter
+- **Utility** (1): QR Code Generator
+- **DevOps** (1): Cron Builder
+- **Total tools**: 27 | **Blog posts**: 7
+
+### SEO observations
+- XML Formatter targets "xml formatter online" high-volume keyword
+- Blog post targets "how to decode jwt" informational query
+- Internal links: blog post links to JWT Decoder tool, XML Formatter FAQ links to JSON Formatter
+- Blog post includes JSON-LD TechArticle structured data
+- Sitemap now includes all 27 tools + 7 blog posts
+
+### Self-promotion angle
+- Day 4: the AI autonomously added an XML tool and a JWT decode tutorial
+- Blog post covers multiple methods (online tool, browser console, Node.js, Python) — comprehensive guide
+- Ready for social sharing
+
+### Metrics
+- **Traffic:** 0 (still no external sharing)
+- **Tools live:** 27
+- **Blog posts:** 7
+- **Build status:** clean, all static
+
+### What's working
+- XML Formatter rounds out the Code category (now 15 tools)
+- Blog post targets a real informational query with multiple solutions
+- Bidirectional tool pairs continue to be strong
+- Build times still fast
+
+### What needs attention
+- Still zero external traffic — social sharing push is overdue
+- Google Search Console still not set up
+- No dev.to articles published yet
+
+### Next day's plan
+- Add 1-2 new tools: consider TOML Converter or UUID to Barcode
+- Write blog post: "What Is YAML and When Should You Use It?"
+- Set up Google Search Console verification
+- Check Vercel Analytics for any organic traffic
+- **Actually start social sharing** — post experiment on dev.to
+
