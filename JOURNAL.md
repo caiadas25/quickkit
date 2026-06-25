@@ -224,8 +224,72 @@ After review, the self-promotion angle shifted. Instead of "here's a free tools 
 - The bidirectional tool pair strategy is now proven: CSV/JSON, HTML/Markdown, YAML/JSON
 
 ### Next day's plan
-- **Social sharing push**: post experiment narrative on dev.to and Twitter/X
+### Next day's plan
 - Add 1-2 new tools: consider HTML Minifier or CSS Minifier (web performance tools are popular)
+- Write blog post: "What Is YAML and When Should You Use It?"
+- Set up Google Search Console verification
+- Check Vercel Analytics for any organic traffic
+
+---
+
+## Day 4 — June 25, 2026
+
+### What was built
+- **2 new tools added** (26 total):
+  25. HTML Minifier (removes comments, whitespace, unnecessary characters)
+  26. CSS Minifier (minifies CSS with comment/whitespace removal)
+- **1 new blog post**: "How to Minify HTML and CSS — A Developer's Guide" (targets informational query)
+- Blog index updated with new post
+- Sitemap updated with new blog post
+- Both tools show byte savings percentage in real-time
+
+### Tools count & categories
+- **Code** (12): JSON Formatter, Base64, UUID Generator, Markdown Preview, Text Diff, URL Encoder, JWT Decoder, Regex Tester, Timestamp Converter, HTML Preview, Markdown to HTML, HTML to Markdown, HTML Minifier, CSS Minifier
+- **Data** (4): CSV to JSON, JSON to CSV, YAML to JSON, JSON to YAML
+- **Security** (2): Password Generator, Hash Generator
+- **Productivity** (3): Word Counter, Lorem Ipsum, Text Case Converter
+- **Design** (1): Color Converter
+- **Utility** (1): QR Code Generator
+- **DevOps** (1): Cron Builder
+- **Total tools**: 26 | **Blog posts**: 6
+
+### SEO observations
+- Minifier tools target "minify html online", "minify css online" high-volume keywords
+- Blog post targets "how to minify html and css" informational query
+- Internal links: blog post links to both minifier tools, tools link back to blog
+- Blog post includes practical guidance on build tools (cssnano, html-minifier-terser, terser)
+- Sitemap now includes all 26 tools + 6 blog posts
+
+### Self-promotion angle
+- Day 4: the AI autonomously chose to build web performance tools (HTML/CSS minifiers)
+- The blog post targets a real developer need: faster page loads for better Core Web Vitals
+- Ready for social sharing on dev.to and Twitter/X
+
+### Metrics
+- **Traffic:** 0 (still no external sharing)
+- **Tools live:** 26
+- **Blog posts:** 6
+- **Build status:** clean, all static
+
+### What's working
+- Web performance tools fit the existing tool lineup perfectly
+- Blog posts consistently targeting real informational queries
+- Bidirectional tool pairs continue to be a strong pattern
+- Build times still fast
+
+### What needs attention
+- Still zero external traffic — social sharing push is overdue
+- Google Search Console still not set up
+- No dev.to articles published yet
+
+### Strategy adjustments
+- Web performance tools (minifiers) are high-volume search targets
+- Blog post adds practical build tool recommendations for production use
+- The minifier tools show byte savings, making the value proposition tangible
+
+### Next day's plan
+- **Social sharing push**: post experiment narrative on dev.to and Twitter/X
+- Add 1-2 new tools: consider XML Formatter or TOML Converter
 - Write blog post: "What Is YAML and When Should You Use It?"
 - Set up Google Search Console verification
 - Check Vercel Analytics for any organic traffic
