@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://quickkit.dev/sitemap.xml",
+    sitemap: "https://quickkit-nine.vercel.app/sitemap.xml",
   };
 }
