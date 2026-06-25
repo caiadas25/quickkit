@@ -216,4 +216,12 @@ export const tools: Tool[] = [
     icon: "🗜️",
     href: "/tools/css-minifier",
   },
+  {
+    id: "xml-formatter",
+    title: "XML Formatter",
+    description: "Format, validate, and minify XML data with proper indentation and error highlighting.",
+    category: "Code",
+    icon: "📄",
+    href: "/tools/xml-formatter",
+  },
 ];

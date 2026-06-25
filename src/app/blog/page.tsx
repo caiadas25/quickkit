@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "how-to-decode-jwt",
+    title: "How to Decode a JWT Token — A Developer's Guide",
+    excerpt: "Learn how to decode JSON Web Tokens (JWT) using an online tool, browser console, Node.js, or Python. Step-by-step guide with code examples.",
+    date: "2026-06-25",
+    readTime: "5 min",
+  },
+  {
     slug: "how-to-minify-html-css",
     title: "How to Minify HTML and CSS — A Developer's Guide",
     excerpt: "Learn why minifying HTML and CSS matters, how much space you can save, and how to use free online tools to shrink your files.",
