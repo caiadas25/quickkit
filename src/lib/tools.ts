@@ -224,4 +224,28 @@ export const tools: Tool[] = [
     icon: "📄",
     href: "/tools/xml-formatter",
   },
+  {
+    id: "js-minifier",
+    title: "JavaScript Minifier",
+    description: "Remove comments, whitespace, and unnecessary characters to shrink your JavaScript for production.",
+    category: "Code",
+    icon: "🗜️",
+    href: "/tools/js-minifier",
+  },
+  {
+    id: "json-to-xml",
+    title: "JSON to XML Converter",
+    description: "Convert JSON data to well-formatted XML with configurable root tag and indentation.",
+    category: "Data",
+    icon: "🔄",
+    href: "/tools/json-to-xml",
+  },
+  {
+    id: "toml-to-json",
+    title: "TOML to JSON Converter",
+    description: "Convert TOML configuration files to JSON. Supports tables, arrays, and nested sections.",
+    category: "Data",
+    icon: "📋",
+    href: "/tools/toml-to-json",
+  },
 ];
