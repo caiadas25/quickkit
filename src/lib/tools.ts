@@ -184,4 +184,20 @@ export const tools: Tool[] = [
     icon: "📝",
     href: "/tools/html-to-markdown",
   },
+  {
+    id: "yaml-to-json",
+    title: "YAML to JSON",
+    description: "Convert YAML data to JSON format. Supports nested objects, arrays, and all YAML types.",
+    category: "Data",
+    icon: "📋",
+    href: "/tools/yaml-to-json",
+  },
+  {
+    id: "json-to-yaml",
+    title: "JSON to YAML",
+    description: "Convert JSON to clean, readable YAML. Perfect for config files and manifests.",
+    category: "Data",
+    icon: "📋",
+    href: "/tools/json-to-yaml",
+  },
 ];

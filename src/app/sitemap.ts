@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-to-format-json",
     "what-is-base64-encoding",
     "cron-expressions-explained",
+    "how-to-convert-yaml-to-json",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),
