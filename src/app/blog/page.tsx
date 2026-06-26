@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "json-cheat-sheet",
+    title: "JSON Cheat Sheet — Complete Reference for Developers",
+    excerpt: "JSON syntax reference with examples. Data types, objects, arrays, nested data, validation, and common patterns. Copy-paste ready.",
+    date: "2026-06-26",
+    readTime: "6 min",
+  },
+  {
     slug: "how-to-convert-json-to-csv",
     title: "How to Convert JSON to CSV — Complete Guide",
     excerpt: "Learn how to convert JSON data to CSV in JavaScript, Python, and with our free online tool. Step-by-step code examples for developers.",
