@@ -9,6 +9,13 @@ const POSTS = [
     readTime: "8 min",
   },
   {
+    slug: "regex-cheat-sheet",
+    title: "Regex Cheat Sheet — Regular Expressions for Developers",
+    excerpt: "Complete regex cheat sheet with patterns, quantifiers, anchors, groups, lookaheads, and common real-world patterns.",
+    date: "2026-06-26",
+    readTime: "8 min",
+  },
+  {
     slug: "what-is-protobuf",
     title: "What Is Protobuf? — Protocol Buffers Explained",
     excerpt: "Learn what Protocol Buffers are, why Google created them, and how they compare to JSON for API data serialization.",
