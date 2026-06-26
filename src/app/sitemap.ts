@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-to-minify-html-css",
     "how-to-decode-jwt",
     "how-to-minify-javascript",
+    "what-is-toml",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),

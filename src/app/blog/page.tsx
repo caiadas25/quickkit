@@ -43,6 +43,13 @@ const POSTS = [
     date: "2026-06-24",
     readTime: "5 min",
   },
+  {
+    slug: "what-is-toml",
+    title: "What Is TOML and When Should You Use It?",
+    excerpt: "TOML (Tom's Obvious Minimal Language) is a config file format that's human-friendly and easy to parse. Learn the syntax, see examples, and convert TOML to JSON.",
+    date: "2026-06-26",
+    readTime: "6 min",
+  },
 ];
 
 export default function BlogIndex() {
