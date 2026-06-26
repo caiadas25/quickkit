@@ -2,6 +2,22 @@
 
 Free, fast, privacy-first developer tools. 30+ tools, 15 blog posts. No signup, no ads.
 
+## Sprint H — June 26, 2026 (Growth Sprint — Quick Win)
+
+### What was done
+- Added blog post: "How to Convert CSV to JSON — Complete Guide"
+  - Targets "convert csv to json" and "csv to json" high-volume keywords
+  - JavaScript, Python, and Node.js code examples
+  - Edge cases section (quoted fields, data types)
+  - Internal links to CSV-to-JSON, JSON-to-CSV, JSON Formatter tools
+  - JSON-LD TechArticle schema
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "convert csv to json" (new blog post)
+- "csv to json javascript" (code examples)
+- "csv to json python" (code examples)
+
 ## Sprint G — June 27, 2026 (Growth Sprint — Quick Wins)
 
 ### What was done
