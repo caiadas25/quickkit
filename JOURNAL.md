@@ -1,13 +1,25 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 30+ tools, 15 blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 30+ tools, 16 blog posts. No signup, no ads.
 
-## Sprint H — June 26, 2026 (Growth Sprint — Quick Win)
+## Sprint I — June 26, 2026 (Growth Sprint — Quick Win)
 
 ### What was done
-- Added blog post: "How to Convert CSV to JSON — Complete Guide"
-  - Targets "convert csv to json" and "csv to json" high-volume keywords
-  - JavaScript, Python, and Node.js code examples
+- Added blog post: "How to Convert JSON to CSV — Complete Guide"
+  - Targets "convert json to csv" and "json to csv" high-volume keywords
+  - JavaScript and Python code examples
+  - Links to JSON to CSV tool for internal linking
+  - JSON-LD TechArticle schema
+- Updated sitemap and blog index
+
+### Keywords targeted
+- "convert json to csv" (new blog post)
+- "json to csv javascript" (blog content)
+- "json to csv python" (blog content)
+
+### Current stats
+- **Tools:** 30+
+- **Blog posts:** 17 (was 16)
   - Edge cases section (quoted fields, data types)
   - Internal links to CSV-to-JSON, JSON-to-CSV, JSON Formatter tools
   - JSON-LD TechArticle schema

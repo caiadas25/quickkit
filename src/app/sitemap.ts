@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "css-flexbox-cheat-sheet",
     "docker-cheat-sheet",
     "how-to-convert-csv-to-json",
+    "how-to-convert-json-to-csv",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),
