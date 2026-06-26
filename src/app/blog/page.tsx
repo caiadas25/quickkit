@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "what-is-protobuf",
+    title: "What Is Protobuf? — Protocol Buffers Explained",
+    excerpt: "Learn what Protocol Buffers are, why Google created them, and how they compare to JSON for API data serialization.",
+    date: "2026-06-26",
+    readTime: "6 min",
+  },
+  {
     slug: "how-to-generate-uuids",
     title: "How to Generate UUIDs — A Developer's Guide",
     excerpt: "Learn what UUIDs are, why they matter, and how to generate them with a free online UUID generator tool.",
