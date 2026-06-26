@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const blogPages = [
+    "git-cheat-sheet",
     "what-is-protobuf",
     "how-to-generate-uuids",
     "day2-ai-dev-tools-journey",

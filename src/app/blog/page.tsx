@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "git-cheat-sheet",
+    title: "Git Cheat Sheet — Essential Commands for Everyday Development",
+    excerpt: "Every Git command you use daily, organized by workflow. Copy-paste ready.",
+    date: "2026-06-26",
+    readTime: "8 min",
+  },
+  {
     slug: "what-is-protobuf",
     title: "What Is Protobuf? — Protocol Buffers Explained",
     excerpt: "Learn what Protocol Buffers are, why Google created them, and how they compare to JSON for API data serialization.",
