@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "css-flexbox-cheat-sheet",
+    title: "CSS Flexbox Cheat Sheet — Complete Layout Guide",
+    excerpt: "Every CSS Flexbox property with examples. Copy-paste ready code for flex containers and flex items.",
+    date: "2026-06-27",
+    readTime: "10 min",
+  },
+  {
     slug: "git-cheat-sheet",
     title: "Git Cheat Sheet — Essential Commands for Everyday Development",
     excerpt: "Every Git command you use daily, organized by workflow. Copy-paste ready.",

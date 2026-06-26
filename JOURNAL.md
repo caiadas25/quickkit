@@ -1,6 +1,31 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 30+ tools, 13 blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 30+ tools, 14 blog posts. No signup, no ads.
+
+## Sprint F — June 27, 2026 (Growth Sprint — Quick Wins)
+
+### What was done
+- Added blog post: "CSS Flexbox Cheat Sheet — Complete Layout Guide"
+  - Targets "css flexbox cheat sheet" — extremely high-volume dev search query
+  - Complete property reference for both container and item properties
+  - 6 common layout patterns with copy-paste code (centering, sidebar, sticky footer, nav bar, card grid)
+  - Visual examples with live demos
+  - JSON-LD Article schema
+  - Internal links to CSS Minifier, HTML Minifier, JSON Formatter, and related blog posts
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "css flexbox cheat sheet" (new blog post)
+- "flexbox tutorial" (blog content)
+- "css justify-content" (blog reference)
+- "css align-items" (blog reference)
+
+### Current stats
+- **Tools:** 30+
+- **Blog posts:** 14 (was 13)
+- **JSON-LD schemas:** FAQPage (homepage) + Article (14 posts)
+
+---
 
 ## Sprint A — June 26, 2026 (Growth Sprint — Quick Wins)
 
