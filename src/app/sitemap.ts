@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const blogPages = [
+    "how-to-generate-uuids",
     "day2-ai-dev-tools-journey",
     "how-to-format-json",
     "what-is-base64-encoding",

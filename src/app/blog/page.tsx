@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "how-to-generate-uuids",
+    title: "How to Generate UUIDs — A Developer's Guide",
+    excerpt: "Learn what UUIDs are, why they matter, and how to generate them with a free online UUID generator tool.",
+    date: "2026-06-26",
+    readTime: "5 min",
+  },
+  {
     slug: "how-to-decode-jwt",
     title: "How to Decode a JWT Token — A Developer's Guide",
     excerpt: "Learn how to decode JSON Web Tokens (JWT) using an online tool, browser console, Node.js, or Python. Step-by-step guide with code examples.",
