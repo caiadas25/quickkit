@@ -1,8 +1,31 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 30+ tools, 14 blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 30+ tools, 15 blog posts. No signup, no ads.
 
-## Sprint F — June 27, 2026 (Growth Sprint — Quick Wins)
+## Sprint G — June 27, 2026 (Growth Sprint — Quick Wins)
+
+### What was done
+- Added blog post: "Docker Cheat Sheet — Essential Commands for Developers"
+  - Targets "docker cheat sheet" — extremely high-volume dev search query
+  - 7 sections: Images, Containers, Volumes, Networking, Docker Compose, Cleanup, Multi-Stage Builds
+  - 50+ commands with descriptions and examples
+  - Pro tips section with 5 best practices
+  - Internal links to related cheat sheets (Git, CSS Flexbox, Regex, Cron)
+  - JSON-LD Article schema
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "docker cheat sheet" (new blog post)
+- "docker commands" (blog content)
+- "docker compose commands" (blog content)
+- "docker volume commands" (blog content)
+
+### Current stats
+- **Tools:** 30+
+- **Blog posts:** 15 (was 14)
+- **JSON-LD schemas:** FAQPage (homepage) + Article (15 posts)
+
+---
 
 ### What was done
 - Added blog post: "CSS Flexbox Cheat Sheet — Complete Layout Guide"

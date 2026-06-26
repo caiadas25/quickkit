@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-to-minify-javascript",
     "what-is-toml",
     "css-flexbox-cheat-sheet",
+    "docker-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),
