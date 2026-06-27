@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "typescript-cheat-sheet",
+    title: "TypeScript Cheat Sheet — Types, Generics & Utility Types",
+    excerpt: "Complete TypeScript cheat sheet. Data types, interfaces, generics, utility types, enums, and type narrowing. Copy-paste ready examples.",
+    date: "2026-06-27",
+    readTime: "10 min",
+  },
+  {
     slug: "html-entities-cheat-sheet",
     title: "HTML Entities Cheat Sheet — Special Characters & Symbols",
     excerpt: "Complete HTML entities reference. Copy-paste special characters, symbols, accented letters, arrows, and math symbols with entity names and numeric codes.",

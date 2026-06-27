@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const blogPages = [
+    "typescript-cheat-sheet",
     "html-entities-cheat-sheet",
     "git-cheat-sheet",
     "regex-cheat-sheet",
