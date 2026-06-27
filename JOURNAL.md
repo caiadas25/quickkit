@@ -1,6 +1,30 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 30+ tools, 22+ blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 31+ tools, 23+ blog posts. No signup, no ads.
+
+## Sprint D (Round 4) — June 27, 2026 (Growth Sprint — QuickKit Deep-Dive)
+
+### What was done
+- Added blog post: "TypeScript Cheat Sheet — Types, Generics & Utility Types"
+  - Complete TypeScript reference: basic types, interfaces, generics
+  - Utility types table (Partial, Pick, Omit, Record, Readonly, ReturnType, Parameters)
+  - Type narrowing examples (typeof, instanceof, discriminated unions, "in" operator)
+  - Enums and literal types section with const enum, string enum, union types
+  - JSON-LD TechArticle schema
+  - Internal links to related cheat sheets (JSON, CSS Grid, Git) and tools
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "typescript cheat sheet" (new blog post — very high volume)
+- "typescript types" (basic types section)
+- "typescript generics" (generics section)
+- "typescript utility types" (utility types table)
+- "typescript type narrowing" (type narrowing examples)
+- "typescript enum vs union" (enums section)
+
+### Current stats
+- **Tools:** 31
+- **Blog posts:** 23 (was 22)
 
 ## Sprint B (Round 4) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
 
