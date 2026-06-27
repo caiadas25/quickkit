@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "css-grid-cheat-sheet",
+    title: "CSS Grid Cheat Sheet — Complete Layout Guide",
+    excerpt: "Master CSS Grid with this comprehensive cheat sheet. Every property, every value — with visual examples and copy-paste code. Covers grid-template-columns, grid-area, gap, fr units, and responsive layouts.",
+    date: "2026-06-27",
+    readTime: "10 min",
+  },
+  {
     slug: "markdown-cheat-sheet",
     title: "Markdown Cheat Sheet — Complete Syntax Reference",
     excerpt: "Complete Markdown syntax reference with examples. Headers, lists, links, images, tables, code blocks, blockquotes, and more. Copy-paste ready.",

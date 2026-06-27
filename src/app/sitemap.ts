@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-to-minify-javascript",
     "what-is-toml",
     "css-flexbox-cheat-sheet",
+    "css-grid-cheat-sheet",
     "docker-cheat-sheet",
     "how-to-convert-csv-to-json",
     "how-to-convert-json-to-csv",
