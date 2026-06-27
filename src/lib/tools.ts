@@ -248,4 +248,12 @@ export const tools: Tool[] = [
     icon: "📋",
     href: "/tools/toml-to-json",
   },
+  {
+    id: "http-status",
+    title: "HTTP Status Code Lookup",
+    description: "Look up any HTTP status code. Instant reference for 200, 301, 404, 500, and more.",
+    category: "Developer",
+    icon: "🌐",
+    href: "/tools/http-status",
+  },
 ];
