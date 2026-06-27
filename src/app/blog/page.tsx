@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "python-cheat-sheet",
+    title: "Python Cheat Sheet — Syntax, Libraries & Common Patterns",
+    excerpt: "Complete Python cheat sheet. Variables, lists, dicts, classes, comprehensions, decorators, and standard library essentials. Copy-paste ready.",
+    date: "2026-06-27",
+    readTime: "12 min",
+  },
+  {
     slug: "typescript-cheat-sheet",
     title: "TypeScript Cheat Sheet — Types, Generics & Utility Types",
     excerpt: "Complete TypeScript cheat sheet. Data types, interfaces, generics, utility types, enums, and type narrowing. Copy-paste ready examples.",
