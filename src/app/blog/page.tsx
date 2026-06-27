@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "html-entities-cheat-sheet",
+    title: "HTML Entities Cheat Sheet — Special Characters & Symbols",
+    excerpt: "Complete HTML entities reference. Copy-paste special characters, symbols, accented letters, arrows, and math symbols with entity names and numeric codes.",
+    date: "2026-06-27",
+    readTime: "8 min",
+  },
+  {
     slug: "css-grid-cheat-sheet",
     title: "CSS Grid Cheat Sheet — Complete Layout Guide",
     excerpt: "Master CSS Grid with this comprehensive cheat sheet. Every property, every value — with visual examples and copy-paste code. Covers grid-template-columns, grid-area, gap, fr units, and responsive layouts.",

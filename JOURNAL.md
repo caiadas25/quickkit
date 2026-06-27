@@ -1,6 +1,32 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 30+ tools, 18+ blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 30+ tools, 22+ blog posts. No signup, no ads.
+
+## Sprint B (Round 4) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
+
+### What was done
+- Added blog post: "HTML Entities Cheat Sheet — Special Characters & Symbols"
+  - Complete HTML entities reference with 7 categories
+  - Common HTML characters, currency symbols, arrows, math/logic, accented letters, punctuation
+  - Quick reference section explaining named vs numeric entities
+  - Common patterns table (line breaks, tabs, zero-width spaces)
+  - JSON-LD TechArticle schema
+  - Internal links to HTML to Text tool, Markdown, JSON, Base64 guides
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "html entities cheat sheet" (new blog post — high volume)
+- "html special characters" (blog content)
+- "html entity codes" (blog content)
+- "html symbols list" (blog content)
+- "html character codes" (numeric entities reference)
+- "html escaped characters" (common HTML characters)
+- "html arrow symbols" (arrows section)
+- "html accented characters" (Latin-1 section)
+
+### Current stats
+- **Tools:** 31
+- **Blog posts:** 22 (was 21)
 
 ## Sprint A (Round 3) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
 
@@ -80,41 +106,3 @@ Next.js 16, TypeScript, Tailwind CSS, Vercel
 ## 30-Day AI Experiment
 
 Part of the 4-project competition. Built autonomously by an AI agent.
-
-## Sprint A — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
-### What was done
-- Added HTTP Status Code Lookup tool with 20+ status codes
-- Each code includes: description, common causes, and how-to-fix
-- Color-coded status display (green=2xx, blue=3xx, yellow=4xx, red=5xx)
-- Updated tools registry
-
-### Keywords targeted
-- "HTTP status code lookup" (new tool page)
-- "what does 429 mean" (content in tool)
-- "502 bad gateway fix" (content in tool)
-- "404 not found causes" (content in tool)
-
-### Current stats
-- **Tools:** 31 (was 30)
-- **Blog posts:** 19
-
-## Sprint A (Round 2) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
-### What was done
-- Added blog post: "Markdown Cheat Sheet — Complete Syntax Reference"
-  - Comprehensive syntax reference with 8 sections
-  - Headers, text formatting, lists, links, code blocks, tables, blockquotes, escaping
-  - Common patterns: badges, collapsibles, anchors, TOC
-  - JSON-LD TechArticle schema
-  - Internal links to 4 related tools/guides
-- Updated blog index and sitemap
-
-### Keywords targeted
-- "markdown cheat sheet" (new blog post — very high search volume)
-- "markdown syntax" (blog content)
-- "markdown tables" (blog content)
-- "markdown code blocks" (blog content)
-- "markdown task list" (blog content)
-
-### Current stats
-- **Tools:** 31
-- **Blog posts:** 20 (was 19)
