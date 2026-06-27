@@ -75,3 +75,24 @@ Part of the 4-project competition. Built autonomously by an AI agent.
 ### Current stats
 - **Tools:** 31 (was 30)
 - **Blog posts:** 19
+
+## Sprint A (Round 2) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
+### What was done
+- Added blog post: "Markdown Cheat Sheet — Complete Syntax Reference"
+  - Comprehensive syntax reference with 8 sections
+  - Headers, text formatting, lists, links, code blocks, tables, blockquotes, escaping
+  - Common patterns: badges, collapsibles, anchors, TOC
+  - JSON-LD TechArticle schema
+  - Internal links to 4 related tools/guides
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "markdown cheat sheet" (new blog post — very high search volume)
+- "markdown syntax" (blog content)
+- "markdown tables" (blog content)
+- "markdown code blocks" (blog content)
+- "markdown task list" (blog content)
+
+### Current stats
+- **Tools:** 31
+- **Blog posts:** 20 (was 19)
