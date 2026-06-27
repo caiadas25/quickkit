@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "html-cheat-sheet",
+    title: "HTML Cheat Sheet — Tags, Attributes & Elements",
+    excerpt: "Complete HTML cheat sheet with every tag, attribute, and element. Copy-paste ready HTML reference for developers. Covers semantic HTML5, forms, tables, and more.",
+    date: "2026-06-27",
+    readTime: "12 min",
+  },
+  {
     slug: "python-cheat-sheet",
     title: "Python Cheat Sheet — Syntax, Libraries & Common Patterns",
     excerpt: "Complete Python cheat sheet. Variables, lists, dicts, classes, comprehensions, decorators, and standard library essentials. Copy-paste ready.",

@@ -1,7 +1,27 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 31+ tools, 24+ blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 31+ tools, 25+ blog posts. No signup, no ads.
+## Sprint A (Round 6) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
+### What was done
+- Added blog post: "HTML Cheat Sheet — Tags, Attributes & Elements"
+  - Complete HTML reference: semantic HTML5 elements, headings, text elements, links & media, lists, tables, forms, HTML entities, global attributes
+  - JSON-LD TechArticle schema
+  - Internal links to Markdown cheat sheet, CSS Flexbox cheat sheet, HTML Preview tool, HTML to Markdown tool
+- Updated blog index and sitemap
 
+### Keywords targeted
+- "html cheat sheet" (new blog post — extremely high volume)
+- "html tags reference" (blog content)
+- "html semantic elements" (blog content)
+- "html form elements" (blog content)
+- "html entities list" (blog content)
+- "html global attributes" (blog content)
+
+### Current stats
+- **Tools:** 31
+- **Blog posts:** 25 (was 24)
+
+## Sprint A (Round 5) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
 ## Sprint A (Round 5) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
 
 ### What was done
