@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "markdown-cheat-sheet",
+    title: "Markdown Cheat Sheet — Complete Syntax Reference",
+    excerpt: "Complete Markdown syntax reference with examples. Headers, lists, links, images, tables, code blocks, blockquotes, and more. Copy-paste ready.",
+    date: "2026-06-27",
+    readTime: "8 min",
+  },
+  {
     slug: "json-cheat-sheet",
     title: "JSON Cheat Sheet — Complete Reference for Developers",
     excerpt: "JSON syntax reference with examples. Data types, objects, arrays, nested data, validation, and common patterns. Copy-paste ready.",

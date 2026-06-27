@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "how-to-convert-csv-to-json",
     "how-to-convert-json-to-csv",
     "what-is-markdown",
+    "markdown-cheat-sheet",
     "json-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
