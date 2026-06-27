@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "bash-cheat-sheet",
+    title: "Bash Cheat Sheet — Linux Commands for Developers",
+    excerpt: "Complete Bash cheat sheet. File operations, text processing, process management, networking, and scripting. Every Linux command you use daily, copy-paste ready.",
+    date: "2026-06-27",
+    readTime: "14 min",
+  },
+  {
     slug: "sql-cheat-sheet",
     title: "SQL Cheat Sheet — Complete Reference for Developers",
     excerpt: "Complete SQL cheat sheet. SELECT, JOIN, INSERT, UPDATE, DELETE, subqueries, window functions, and common patterns. Copy-paste ready queries for MySQL, PostgreSQL, and SQL Server.",
