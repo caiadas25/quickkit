@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "what-is-markdown",
     "markdown-cheat-sheet",
     "json-cheat-sheet",
+    "react-hooks-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),

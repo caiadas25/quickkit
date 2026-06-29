@@ -9,6 +9,13 @@ const POSTS = [
     readTime: "15 min",
   },
   {
+    slug: "react-hooks-cheat-sheet",
+    title: "React Hooks Cheat Sheet — useState, useEffect, useContext & More",
+    excerpt: "Complete React hooks cheat sheet. useState, useEffect, useContext, useReducer, useMemo, useCallback, useRef, and custom hooks with copy-paste examples.",
+    date: "2026-06-29",
+    readTime: "12 min",
+  },
+  {
     slug: "unix-timestamp-converter",
     title: "Unix Timestamp Converter — How to Convert Epoch Time",
     excerpt: "Convert Unix timestamps to human-readable dates and back. JavaScript, Python, and Bash code examples. Free online tool.",
