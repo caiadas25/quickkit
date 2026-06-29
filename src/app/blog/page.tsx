@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "react-cheat-sheet",
+    title: "React Cheat Sheet — Complete Reference for Developers",
+    excerpt: "Complete React cheat sheet with hooks, state management, JSX patterns, components, context, performance optimization, and common patterns. Copy-paste ready.",
+    date: "2026-06-29",
+    readTime: "15 min",
+  },
+  {
     slug: "javascript-array-methods-cheat-sheet",
     title: "JavaScript Array Methods Cheat Sheet — Every Method Explained",
     excerpt: "Complete JavaScript array methods cheat sheet. map, filter, reduce, find, sort, forEach, flatMap, includes, every, some — with copy-paste examples. Mutating methods flagged.",
