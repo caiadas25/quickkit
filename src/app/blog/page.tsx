@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "unix-timestamp-converter",
+    title: "Unix Timestamp Converter — How to Convert Epoch Time",
+    excerpt: "Convert Unix timestamps to human-readable dates and back. JavaScript, Python, and Bash code examples. Free online tool.",
+    date: "2026-06-29",
+    readTime: "5 min",
+  },
+  {
     slug: "bash-cheat-sheet",
     title: "Bash Cheat Sheet — Linux Commands for Developers",
     excerpt: "Complete Bash cheat sheet. File operations, text processing, process management, networking, and scripting. Every Linux command you use daily, copy-paste ready.",

@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const blogPages = [
+    "unix-timestamp-converter",
     "bash-cheat-sheet",
     "sql-cheat-sheet",
     "html-cheat-sheet",
