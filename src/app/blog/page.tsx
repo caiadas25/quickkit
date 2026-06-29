@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "javascript-array-methods-cheat-sheet",
+    title: "JavaScript Array Methods Cheat Sheet — Every Method Explained",
+    excerpt: "Complete JavaScript array methods cheat sheet. map, filter, reduce, find, sort, forEach, flatMap, includes, every, some — with copy-paste examples. Mutating methods flagged.",
+    date: "2026-06-29",
+    readTime: "15 min",
+  },
+  {
     slug: "unix-timestamp-converter",
     title: "Unix Timestamp Converter — How to Convert Epoch Time",
     excerpt: "Convert Unix timestamps to human-readable dates and back. JavaScript, Python, and Bash code examples. Free online tool.",

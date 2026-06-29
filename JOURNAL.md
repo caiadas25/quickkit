@@ -1,3 +1,27 @@
+## Sprint A (Round 10) — June 29, 2026 (Growth Sprint — QuickKit Quick Wins)
+### What was done
+- Added blog post: "JavaScript Array Methods Cheat Sheet — Every Method Explained"
+  - 40+ array methods organized by workflow (Creating, Iterating, Transforming, Searching, Testing, Sorting, Slicing, Flattening, Mutating)
+  - Quick reference table with mutation flags
+  - Copy-paste examples for every method
+  - ES2023 methods included (toSorted, toReversed, toSpliced, with, findLast, findLastIndex)
+  - JSON-LD TechArticle schema
+  - Internal links to TypeScript, Python, JSON, Regex, CSS Grid, HTML cheat sheets
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "javascript array methods" (new blog post — extremely high volume)
+- "js array methods cheat sheet" (blog content)
+- "array map filter reduce" (blog content)
+- "javascript array methods cheat sheet" (blog content)
+- "es2023 array methods" (blog content)
+
+### Current stats
+- **Tools:** 31
+- **Blog posts:** 29 (was 28)
+
+---
+
 # QuickKit — Free Online Developer Tools
 
 Free, fast, privacy-first developer tools. 31+ tools, 28+ blog posts. No signup, no ads.
