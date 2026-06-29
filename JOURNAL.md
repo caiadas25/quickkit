@@ -1,6 +1,31 @@
 # QuickKit — Free Online Developer Tools
 
-Free, fast, privacy-first developer tools. 31+ tools, 27+ blog posts. No signup, no ads.
+Free, fast, privacy-first developer tools. 31+ tools, 28+ blog posts. No signup, no ads.
+
+## Sprint A (Round 9) — June 29, 2026 (Growth Sprint — QuickKit Quick Wins)
+### What was done
+- Added blog post: "Unix Timestamp Converter — How to Convert Epoch Time"
+  - JavaScript, Python, and Bash code examples for timestamp conversion
+  - Timestamp formats reference table (seconds, milliseconds, ISO 8601)
+  - Common use cases (APIs, databases, logs, caching)
+  - Y2038 problem explanation
+  - JSON-LD TechArticle schema
+  - Internal links to UUID generator, JWT decoder, cron expressions
+- Updated blog index and sitemap
+
+### Keywords targeted
+- "unix timestamp converter" (new blog post — extremely high volume)
+- "epoch time converter" (blog content)
+- "convert timestamp to date" (blog content)
+- "javascript timestamp" (blog content)
+- "python epoch time" (blog content)
+- "unix timestamp to date" (blog content)
+
+### Current stats
+- **Tools:** 31
+- **Blog posts:** 28 (was 27)
+
+---
 
 ## Sprint A (Round 7) — June 27, 2026 (Growth Sprint — QuickKit Quick Wins)
 ### What was done
