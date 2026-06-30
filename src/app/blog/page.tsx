@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "http-status-codes-explained",
+    title: "HTTP Status Codes Explained — Complete Reference",
+    excerpt: "Every HTTP status code explained. 1xx, 2xx, 3xx, 4xx, 5xx — what each means, when it happens, and how to fix it. Developer-friendly reference.",
+    date: "2026-06-30",
+    readTime: "12 min",
+  },
+  {
     slug: "react-cheat-sheet",
     title: "React Cheat Sheet — Complete Reference for Developers",
     excerpt: "Complete React cheat sheet with hooks, state management, JSX patterns, components, context, performance optimization, and common patterns. Copy-paste ready.",
