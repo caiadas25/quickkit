@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "git-commands-cheat-sheet",
+    title: "Git Commands Cheat Sheet — Essential Git Reference 2026",
+    excerpt: "Complete Git commands cheat sheet. Every git command you use daily — staging, committing, branching, merging, rebasing, stashing, remote, and log. Copy-paste ready.",
+    date: "2026-06-30",
+    readTime: "15 min",
+  },
+  {
     slug: "how-to-convert-json-to-xml",
     title: "How to Convert JSON to XML — Complete Guide",
     excerpt: "Learn how to convert JSON data to XML with JavaScript, Python, and our free online converter tool. Step-by-step code examples for developers.",
