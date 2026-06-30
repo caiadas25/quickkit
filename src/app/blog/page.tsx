@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "how-to-convert-json-to-xml",
+    title: "How to Convert JSON to XML — Complete Guide",
+    excerpt: "Learn how to convert JSON data to XML with JavaScript, Python, and our free online converter tool. Step-by-step code examples for developers.",
+    date: "2026-06-30",
+    readTime: "8 min",
+  },
+  {
     slug: "css-selectors-cheat-sheet",
     title: "CSS Selectors Cheat Sheet — Complete Reference",
     excerpt: "Master CSS selectors with this comprehensive cheat sheet. Basic, combinators, pseudo-classes, pseudo-elements, attribute selectors, and specificity rules — all with copy-paste examples.",
