@@ -1,3 +1,27 @@
+## Sprint A (Round 22) -- June 30, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "REST API Cheat Sheet -- HTTP Methods, Status Codes & Patterns"
+  - Targets high-volume keyword: "rest api cheat sheet"
+  - 8 sections: HTTP Methods, Status Codes, URL Patterns, Request Headers, Response Headers, Auth Patterns, Pagination, Error Format
+  - CRUD example with code block
+  - Internal links to 4 related cheat sheets (HTTP Status Codes, JSON, Git, Docker)
+  - TechArticle JSON-LD schema
+  - Updated blog index and sitemap
+  - Total: 31 tools, 39 blog posts (was 38)
+
+### Keywords targeted
+- "rest api cheat sheet" (new blog post -- very high volume)
+- "http methods cheat sheet" (blog content)
+- "http status codes cheat sheet" (blog content)
+- "rest api design patterns" (blog content)
+
+### SEO fixes
+- Added TechArticle JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related cheat sheets
+
+---
+
 ## Sprint A (Round 21) — June 30, 2026 (Growth Sprint — QuickKit Quick Wins)
 ### What was done
 - New blog post: "JavaScript Regex Cheat Sheet — Complete Reference 2026"
