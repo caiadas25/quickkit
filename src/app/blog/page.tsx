@@ -204,6 +204,13 @@ const POSTS = [
     date: "2026-06-30",
     readTime: "12 min",
   },
+  {
+    slug: "kubernetes-cheat-sheet",
+    title: "Kubernetes (K8s) Cheat Sheet — Essential Commands & Resources",
+    excerpt: "Complete Kubernetes cheat sheet. kubectl commands, pods, deployments, services, configmaps, secrets, and networking. Every command you use daily, copy-paste ready.",
+    date: "2026-06-30",
+    readTime: "15 min",
+  },
 ];
 
 export default function BlogIndex() {
