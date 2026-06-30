@@ -253,6 +253,13 @@ const POSTS = [
     date: "2026-06-30",
     readTime: "15 min",
   },
+  {
+    slug: "rest-api-cheat-sheet",
+    title: "REST API Cheat Sheet — HTTP Methods, Status Codes & Patterns",
+    excerpt: "Complete REST API cheat sheet. HTTP methods, status codes, URL patterns, headers, authentication, and error handling. Every concept, copy-paste ready.",
+    date: "2026-06-30",
+    readTime: "12 min",
+  },
 ];
 
 export default function BlogIndex() {

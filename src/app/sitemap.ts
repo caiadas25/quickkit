@@ -49,6 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "react-cheat-sheet",
     "nodejs-cheat-sheet",
     "kubernetes-cheat-sheet",
+    "rest-api-cheat-sheet",
     "http-status-codes-explained",
     "css-flexbox-vs-grid",
   ].map((slug) => ({
