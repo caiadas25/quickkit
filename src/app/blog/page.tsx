@@ -9,6 +9,13 @@ const POSTS = [
     readTime: "8 min",
   },
   {
+    slug: "javascript-regex-cheat-sheet",
+    title: "JavaScript Regex Cheat Sheet — Complete Reference 2026",
+    excerpt: "Complete JavaScript regex cheat sheet. Every method, flag, pattern, and metacharacter explained with copy-paste examples. The only regex reference you need.",
+    date: "2026-06-30",
+    readTime: "12 min",
+  },
+  {
     slug: "css-selectors-cheat-sheet",
     title: "CSS Selectors Cheat Sheet — Complete Reference",
     excerpt: "Master CSS selectors with this comprehensive cheat sheet. Basic, combinators, pseudo-classes, pseudo-elements, attribute selectors, and specificity rules — all with copy-paste examples.",
