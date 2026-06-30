@@ -1,3 +1,25 @@
+## Sprint A (Round 16) — June 30, 2026 (Growth Sprint — QuickKit Quick Wins)
+### What was done
+- Added blog post: "CSS Flexbox vs Grid — When to Use Which"
+  - 6 side-by-side examples with code snippets
+  - Winner indicators (Flexbox wins, Grid wins, Both work)
+  - Decision flowchart (4 quick decision cards)
+  - Key properties reference tables for both Flexbox and Grid
+  - Power Combo section (Grid for page layout + Flexbox for components)
+  - Internal links to Flexbox cheat sheet, Grid cheat sheet, HTML, TypeScript guides
+
+### Keywords targeted
+- "css flexbox vs grid" (new blog post — extremely high volume)
+- "when to use flexbox vs grid" (blog content)
+- "flexbox or grid" (blog content)
+- "css layout comparison" (blog content)
+
+### Current stats
+- **Tools:** 31 (unchanged)
+- **Blog posts:** 34 (was 33)
+
+---
+
 ## Sprint B (Round 15) — June 30, 2026 (Growth Sprint — QuickKit Quick Wins)
 ### What was done
 - Added blog post: "HTTP Status Codes Explained — Complete Reference"
