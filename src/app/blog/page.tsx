@@ -197,6 +197,13 @@ const POSTS = [
     date: "2026-06-26",
     readTime: "6 min",
   },
+  {
+    slug: "nodejs-cheat-sheet",
+    title: "Node.js Cheat Sheet — Common Modules, Patterns & Commands",
+    excerpt: "Complete Node.js cheat sheet with copy-paste examples. Modules, fs, http, streams, async/await, child_process, and common CLI commands.",
+    date: "2026-06-30",
+    readTime: "12 min",
+  },
 ];
 
 export default function BlogIndex() {
