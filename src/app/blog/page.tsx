@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "css-selectors-cheat-sheet",
+    title: "CSS Selectors Cheat Sheet — Complete Reference",
+    excerpt: "Master CSS selectors with this comprehensive cheat sheet. Basic, combinators, pseudo-classes, pseudo-elements, attribute selectors, and specificity rules — all with copy-paste examples.",
+    date: "2026-06-30",
+    readTime: "15 min",
+  },
+  {
     slug: "npm-cheat-sheet",
     title: "NPM Commands Cheat Sheet — Essential Package Manager Reference",
     excerpt: "Complete NPM cheat sheet. Install, update, scripts, dependencies, audit, workspaces, and registry commands. Every NPM command you use daily, copy-paste ready.",
