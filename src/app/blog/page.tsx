@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "npm-cheat-sheet",
+    title: "NPM Commands Cheat Sheet — Essential Package Manager Reference",
+    excerpt: "Complete NPM cheat sheet. Install, update, scripts, dependencies, audit, workspaces, and registry commands. Every NPM command you use daily, copy-paste ready.",
+    date: "2026-06-30",
+    readTime: "12 min",
+  },
+  {
     slug: "css-flexbox-vs-grid",
     title: "CSS Flexbox vs Grid — When to Use Which",
     excerpt: "The #1 CSS layout question answered. Flexbox for one-dimensional, Grid for two-dimensional. Real-world examples, code snippets, and a decision flowchart.",
