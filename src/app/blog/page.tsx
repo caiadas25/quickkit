@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "css-flexbox-vs-grid",
+    title: "CSS Flexbox vs Grid — When to Use Which",
+    excerpt: "The #1 CSS layout question answered. Flexbox for one-dimensional, Grid for two-dimensional. Real-world examples, code snippets, and a decision flowchart.",
+    date: "2026-06-30",
+    readTime: "10 min",
+  },
+  {
     slug: "http-status-codes-explained",
     title: "HTTP Status Codes Explained — Complete Reference",
     excerpt: "Every HTTP status code explained. 1xx, 2xx, 3xx, 4xx, 5xx — what each means, when it happens, and how to fix it. Developer-friendly reference.",
