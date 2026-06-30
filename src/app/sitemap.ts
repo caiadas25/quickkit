@@ -53,6 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "rest-api-cheat-sheet",
     "http-status-codes-explained",
     "css-flexbox-vs-grid",
+    "css-variables-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),

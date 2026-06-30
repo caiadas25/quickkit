@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "css-variables-cheat-sheet",
+    title: "CSS Variables Cheat Sheet — Complete Reference 2026",
+    excerpt: "Complete CSS custom properties (variables) cheat sheet. Syntax, scoping, fallback values, dynamic theming, dark mode, and 20+ real-world patterns. Copy-paste ready.",
+    date: "2026-06-30",
+    readTime: "10 min",
+  },
+  {
     slug: "git-commands-cheat-sheet",
     title: "Git Commands Cheat Sheet — Essential Git Reference 2026",
     excerpt: "Complete Git commands cheat sheet. Every git command you use daily — staging, committing, branching, merging, rebasing, stashing, remote, and log. Copy-paste ready.",
