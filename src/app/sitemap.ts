@@ -61,6 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "javascript-cheat-sheet",
     "css-cheat-sheet",
     "docker-compose-cheat-sheet",
+    "linux-commands-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),

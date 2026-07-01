@@ -1,3 +1,26 @@
+## Sprint A (Round 31) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Linux Commands Cheat Sheet — Essential Commands & Examples 2026"
+  - Targets high-volume keyword: "linux commands cheat sheet" (massive DevOps/SysAdmin query)
+  - 10 sections: File Operations, Text Processing, Permissions, Networking, Process Management, System Monitoring, Disk & Storage, Compression, User Management, Shell Shortcuts
+  - TechArticle JSON-LD schema
+  - Internal links to 4 related cheat sheets (Bash, Docker, Kubernetes, Git)
+  - Updated blog index and sitemap
+- Total: 32 tools, 50 blog posts (was 49)
+
+### Keywords targeted
+- "linux commands cheat sheet" (new blog post -- very high volume)
+- "linux commands" (blog content)
+- "linux terminal commands" (blog content)
+- "chmod permissions" (blog content)
+
+### SEO fixes
+- Added TechArticle JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related cheat sheets
+
+---
+
 ## Sprint D (Round 30) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Docker Compose Cheat Sheet — Commands, YAML & Examples"
