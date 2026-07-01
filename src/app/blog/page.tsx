@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "go-cheat-sheet",
+    title: "Go (Golang) Cheat Sheet — Syntax, Concurrency & Common Patterns",
+    excerpt: "Complete Go cheat sheet with copy-paste code. Variables, structs, interfaces, goroutines, channels, error handling, and standard library.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "vim-cheat-sheet",
     title: "Vim Cheat Sheet — Every Command You Need 2026",
     excerpt: "Complete Vim cheat sheet. Navigation, editing, search, replace, macros, splits, tabs, and essential .vimrc config. Every command with copy-paste examples.",
