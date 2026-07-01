@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "vue-cheat-sheet",
+    title: "Vue.js Cheat Sheet — Vue 3 Syntax, Composition API & Common Patterns",
+    excerpt: "Complete Vue.js 3 cheat sheet with copy-paste code. Composition API, reactivity, components, routing, state management, and common patterns.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "java-cheat-sheet",
     title: "Java Cheat Sheet — Syntax, Features & Common Patterns",
     excerpt: "Complete Java cheat sheet. Variables, collections, streams, lambdas, OOP, and multithreading with copy-paste examples.",
