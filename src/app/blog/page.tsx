@@ -9,6 +9,13 @@ const POSTS = [
     readTime: "15 min",
   },
   {
+    slug: "docker-compose-cheat-sheet",
+    title: "Docker Compose Cheat Sheet — Commands, YAML & Examples",
+    excerpt: "Complete Docker Compose cheat sheet. YAML syntax, commands, services, networks, volumes, environment variables, health checks, and multi-stage builds.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "css-cheat-sheet",
     title: "CSS Cheat Sheet — Complete Reference 2026",
     excerpt: "Complete CSS cheat sheet with copy-paste code. Selectors, box model, flexbox, grid, positioning, animations, media queries, and variables.",
