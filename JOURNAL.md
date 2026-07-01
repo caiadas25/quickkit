@@ -1,3 +1,27 @@
+## Sprint D (Round 30) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "Docker Compose Cheat Sheet — Commands, YAML & Examples"
+  - Targets high-volume keyword: "docker compose cheat sheet" (high-volume DevOps gap)
+  - 4 sections: Essential Commands, YAML Syntax, Profiles & Overrides, Common Patterns
+  - Copy-paste code examples for every section
+  - TechArticle JSON-LD schema
+  - Internal links to Docker, Kubernetes, Bash, Cron cheat sheets
+  - Updated blog index and sitemap
+- Total: 31 tools, 48 blog posts (was 47)
+
+### Keywords targeted
+- "docker compose cheat sheet" (new blog post -- very high volume)
+- "docker compose commands" (blog content)
+- "docker compose yaml" (blog content)
+- "docker compose profiles" (blog content)
+
+### SEO fixes
+- Added TechArticle JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related cheat sheets
+
+---
+
 ## Sprint A (Round 30) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "CSS Cheat Sheet — Complete Reference 2026"
