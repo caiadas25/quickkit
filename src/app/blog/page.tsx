@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "vim-cheat-sheet",
+    title: "Vim Cheat Sheet — Every Command You Need 2026",
+    excerpt: "Complete Vim cheat sheet. Navigation, editing, search, replace, macros, splits, tabs, and essential .vimrc config. Every command with copy-paste examples.",
+    date: "2026-07-01",
+    readTime: "14 min",
+  },
+  {
     slug: "tailwind-css-cheat-sheet",
     title: "Tailwind CSS Cheat Sheet — Every Utility Class Explained",
     excerpt: "Complete Tailwind CSS cheat sheet. Every utility class — spacing, typography, colors, flexbox, grid, responsive design, dark mode. Copy-paste ready.",
