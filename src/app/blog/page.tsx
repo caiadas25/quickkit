@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "php-cheat-sheet",
+    title: "PHP Cheat Sheet — Syntax, Functions & Common Patterns",
+    excerpt: "Complete PHP cheat sheet. Variables, arrays, string functions, loops, classes, and PHP 8+ features with copy-paste examples.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "yaml-cheat-sheet",
     title: "YAML Cheat Sheet — Syntax, Examples & Common Patterns",
     excerpt: "Complete YAML cheat sheet. Scalars, maps, lists, multi-line strings, anchors, and merge keys with copy-paste examples.",

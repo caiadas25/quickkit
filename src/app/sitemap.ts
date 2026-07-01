@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "git-commands-cheat-sheet",
     "how-to-convert-json-to-xml",
     "yaml-cheat-sheet",
+    "php-cheat-sheet",
     "javascript-regex-cheat-sheet",
     "css-selectors-cheat-sheet",
     "npm-cheat-sheet",
