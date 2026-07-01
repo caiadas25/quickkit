@@ -1,3 +1,28 @@
+## Sprint A (Round 32) -- July 1, 2026 (Growth Sprint)
+### What was done
+- Added new blog post: "AWS CLI Cheat Sheet — Essential Commands & Examples 2026"
+  - Targets high-volume keyword: "AWS cheat sheet" (massive DevOps/Cloud query)
+  - 10 sections: Configuration, EC2 (Instances), EC2 (Volumes), S3, Lambda, IAM, CloudFormation, RDS, CloudWatch, One-Liners
+  - 80+ commands with copy-paste examples
+  - TechArticle JSON-LD schema
+  - Internal links to 4 related cheat sheets (Docker, Kubernetes, Bash, Python)
+  - Updated blog index and sitemap
+- Total: 32 tools, 51 blog posts (was 50)
+
+### Keywords targeted
+- "AWS cheat sheet" (new blog post -- very high volume)
+- "AWS CLI commands" (blog content)
+- "AWS EC2 commands" (blog content)
+- "AWS S3 commands" (blog content)
+- "AWS Lambda CLI" (blog content)
+
+### SEO fixes
+- Added TechArticle JSON-LD schema
+- Updated sitemap with new blog post
+- Internal links from/to 4 related cheat sheets
+
+---
+
 ## Sprint A (Round 31) -- July 1, 2026 (Growth Sprint)
 ### What was done
 - Added new blog post: "Linux Commands Cheat Sheet — Essential Commands & Examples 2026"

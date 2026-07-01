@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "aws-cheat-sheet",
+    title: "AWS CLI Cheat Sheet — Essential Commands & Examples 2026",
+    excerpt: "Complete AWS CLI cheat sheet. EC2, S3, Lambda, IAM, CloudFormation, RDS, and CloudWatch commands with copy-paste examples.",
+    date: "2026-07-01",
+    readTime: "18 min",
+  },
+  {
     slug: "rust-cheat-sheet",
     title: "Rust Cheat Sheet — Ownership, Lifetimes & Common Patterns",
     excerpt: "Complete Rust cheat sheet with copy-paste code. Ownership, borrowing, lifetimes, structs, enums, error handling, and async patterns.",
