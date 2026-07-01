@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "tailwind-css-cheat-sheet",
+    title: "Tailwind CSS Cheat Sheet — Every Utility Class Explained",
+    excerpt: "Complete Tailwind CSS cheat sheet. Every utility class — spacing, typography, colors, flexbox, grid, responsive design, dark mode. Copy-paste ready.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "git-branching-cheat-sheet",
     title: "Git Branching Cheat Sheet — Branch, Merge, Rebase & More",
     excerpt: "Complete Git branching cheat sheet. Create branches, switch, merge, rebase, cherry-pick, and resolve conflicts. Every command with copy-paste examples.",

@@ -55,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "css-flexbox-vs-grid",
     "css-variables-cheat-sheet",
     "git-branching-cheat-sheet",
+    "tailwind-css-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),
