@@ -58,7 +58,7 @@ v       # Visual mode (character select)
 V       # Visual line mode
 Ctrl+v  # Visual block mode
 R       # Replace mode
-:`       # Command-line mode
+:       # Command-line mode
 Esc     # Return to Normal mode from any mode`}</pre>
             </div>
           </section>
@@ -227,7 +227,7 @@ d       # Delete block`}</pre>
 m{a-z}    # Set local mark (within file)
 m{A-Z}    # Set global mark (across files)
 '{mark}   # Jump to beginning of line with mark
-`{mark}   # Jump to exact position of mark
+\`{mark}   # Jump to exact position of mark
 :marks    # List all marks
 
 # Registers (clipboards)
