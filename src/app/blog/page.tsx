@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "git-branching-cheat-sheet",
+    title: "Git Branching Cheat Sheet — Branch, Merge, Rebase & More",
+    excerpt: "Complete Git branching cheat sheet. Create branches, switch, merge, rebase, cherry-pick, and resolve conflicts. Every command with copy-paste examples.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "css-variables-cheat-sheet",
     title: "CSS Variables Cheat Sheet — Complete Reference 2026",
     excerpt: "Complete CSS custom properties (variables) cheat sheet. Syntax, scoping, fallback values, dynamic theming, dark mode, and 20+ real-world patterns. Copy-paste ready.",
@@ -16,53 +23,39 @@ const POSTS = [
     readTime: "15 min",
   },
   {
-    slug: "how-to-convert-json-to-xml",
-    title: "How to Convert JSON to XML — Complete Guide",
-    excerpt: "Learn how to convert JSON data to XML with JavaScript, Python, and our free online converter tool. Step-by-step code examples for developers.",
-    date: "2026-06-30",
-    readTime: "8 min",
-  },
-  {
-    slug: "javascript-regex-cheat-sheet",
-    title: "JavaScript Regex Cheat Sheet — Complete Reference 2026",
-    excerpt: "Complete JavaScript regex cheat sheet. Every method, flag, pattern, and metacharacter explained with copy-paste examples. The only regex reference you need.",
-    date: "2026-06-30",
-    readTime: "12 min",
-  },
-  {
-    slug: "css-selectors-cheat-sheet",
-    title: "CSS Selectors Cheat Sheet — Complete Reference",
-    excerpt: "Master CSS selectors with this comprehensive cheat sheet. Basic, combinators, pseudo-classes, pseudo-elements, attribute selectors, and specificity rules — all with copy-paste examples.",
-    date: "2026-06-30",
-    readTime: "15 min",
-  },
-  {
-    slug: "npm-cheat-sheet",
-    title: "NPM Commands Cheat Sheet — Essential Package Manager Reference",
-    excerpt: "Complete NPM cheat sheet. Install, update, scripts, dependencies, audit, workspaces, and registry commands. Every NPM command you use daily, copy-paste ready.",
-    date: "2026-06-30",
-    readTime: "12 min",
-  },
-  {
-    slug: "css-flexbox-vs-grid",
-    title: "CSS Flexbox vs Grid — When to Use Which",
-    excerpt: "The #1 CSS layout question answered. Flexbox for one-dimensional, Grid for two-dimensional. Real-world examples, code snippets, and a decision flowchart.",
+    slug: "rest-api-cheat-sheet",
+    title: "REST API Cheat Sheet — HTTP Methods, Status Codes & Patterns",
+    excerpt: "REST API cheat sheet. GET, POST, PUT, PATCH, DELETE, status codes, authentication, pagination, and best practices. Copy-paste ready.",
     date: "2026-06-30",
     readTime: "10 min",
   },
   {
-    slug: "http-status-codes-explained",
-    title: "HTTP Status Codes Explained — Complete Reference",
-    excerpt: "Every HTTP status code explained. 1xx, 2xx, 3xx, 4xx, 5xx — what each means, when it happens, and how to fix it. Developer-friendly reference.",
-    date: "2026-06-30",
-    readTime: "12 min",
+    slug: "javascript-regex-cheat-sheet",
+    title: "JavaScript Regex Cheat Sheet — Regular Expressions Reference",
+    excerpt: "JavaScript regex cheat sheet. Every regex pattern, quantifier, and flag explained. Email, phone, URL, and common validation patterns. Copy-paste ready.",
+    date: "2026-06-29",
+    readTime: "8 min",
   },
   {
-    slug: "react-cheat-sheet",
-    title: "React Cheat Sheet — Complete Reference for Developers",
-    excerpt: "Complete React cheat sheet with hooks, state management, JSX patterns, components, context, performance optimization, and common patterns. Copy-paste ready.",
+    slug: "how-to-convert-json-to-xml",
+    title: "How to Convert JSON to XML — Complete Guide 2026",
+    excerpt: "Convert JSON to XML using JavaScript, Python, and online tools. Step-by-step with code examples and the best free converters.",
     date: "2026-06-29",
-    readTime: "15 min",
+    readTime: "7 min",
+  },
+  {
+    slug: "css-selectors-cheat-sheet",
+    title: "CSS Selectors Cheat Sheet — Complete Reference 2026",
+    excerpt: "CSS selectors cheat sheet. 60+ selectors from basic to advanced — combinators, attribute selectors, pseudo-classes, pseudo-elements, and specificity.",
+    date: "2026-06-29",
+    readTime: "10 min",
+  },
+  {
+    slug: "npm-cheat-sheet",
+    title: "NPM Commands Cheat Sheet — Essential NPM Reference 2026",
+    excerpt: "NPM commands cheat sheet. Install, dependencies, scripts, init, security, cache, workspaces, and registry. 80+ commands copy-paste ready.",
+    date: "2026-06-29",
+    readTime: "10 min",
   },
   {
     slug: "javascript-array-methods-cheat-sheet",
@@ -87,217 +80,267 @@ const POSTS = [
   },
   {
     slug: "bash-cheat-sheet",
-    title: "Bash Cheat Sheet — Linux Commands for Developers",
-    excerpt: "Complete Bash cheat sheet. File operations, text processing, process management, networking, and scripting. Every Linux command you use daily, copy-paste ready.",
-    date: "2026-06-27",
-    readTime: "14 min",
-  },
-  {
-    slug: "sql-cheat-sheet",
-    title: "SQL Cheat Sheet — Complete Reference for Developers",
-    excerpt: "Complete SQL cheat sheet. SELECT, JOIN, INSERT, UPDATE, DELETE, subqueries, window functions, and common patterns. Copy-paste ready queries for MySQL, PostgreSQL, and SQL Server.",
-    date: "2026-06-27",
-    readTime: "14 min",
-  },
-  {
-    slug: "html-cheat-sheet",
-    title: "HTML Cheat Sheet — Tags, Attributes & Elements",
-    excerpt: "Complete HTML cheat sheet with every tag, attribute, and element. Copy-paste ready HTML reference for developers. Covers semantic HTML5, forms, tables, and more.",
-    date: "2026-06-27",
+    title: "Bash Cheat Sheet — Shell Commands Reference 2026",
+    excerpt: "Bash cheat sheet. File operations, text processing, process management, networking, and scripting. Every command with examples.",
+    date: "2026-06-28",
     readTime: "12 min",
   },
   {
+    slug: "sql-cheat-sheet",
+    title: "SQL Cheat Sheet — Queries, Joins & Functions Reference",
+    excerpt: "SQL cheat sheet. SELECT, JOIN, GROUP BY, subqueries, window functions, indexes, and optimization. Copy-paste ready.",
+    date: "2026-06-28",
+    readTime: "10 min",
+  },
+  {
+    slug: "html-cheat-sheet",
+    title: "HTML Cheat Sheet — Tags, Elements & Attributes Reference",
+    excerpt: "HTML cheat sheet. Semantic elements, forms, tables, multimedia, accessibility, and meta tags. Every tag with examples.",
+    date: "2026-06-28",
+    readTime: "10 min",
+  },
+  {
     slug: "python-cheat-sheet",
-    title: "Python Cheat Sheet — Syntax, Libraries & Common Patterns",
-    excerpt: "Complete Python cheat sheet. Variables, lists, dicts, classes, comprehensions, decorators, and standard library essentials. Copy-paste ready.",
-    date: "2026-06-27",
+    title: "Python Cheat Sheet — Syntax, Libraries & Patterns 2026",
+    excerpt: "Python cheat sheet. Data types, list comprehensions, generators, decorators, file I/O, and common patterns. Copy-paste ready.",
+    date: "2026-06-28",
     readTime: "12 min",
   },
   {
     slug: "typescript-cheat-sheet",
     title: "TypeScript Cheat Sheet — Types, Generics & Utility Types",
-    excerpt: "Complete TypeScript cheat sheet. Data types, interfaces, generics, utility types, enums, and type narrowing. Copy-paste ready examples.",
-    date: "2026-06-27",
+    excerpt: "TypeScript cheat sheet. Interfaces, types, generics, utility types, type guards, and advanced patterns. Copy-paste ready.",
+    date: "2026-06-28",
     readTime: "10 min",
   },
   {
     slug: "html-entities-cheat-sheet",
     title: "HTML Entities Cheat Sheet — Special Characters & Symbols",
-    excerpt: "Complete HTML entities reference. Copy-paste special characters, symbols, accented letters, arrows, and math symbols with entity names and numeric codes.",
-    date: "2026-06-27",
-    readTime: "8 min",
-  },
-  {
-    slug: "css-grid-cheat-sheet",
-    title: "CSS Grid Cheat Sheet — Complete Layout Guide",
-    excerpt: "Master CSS Grid with this comprehensive cheat sheet. Every property, every value — with visual examples and copy-paste code. Covers grid-template-columns, grid-area, gap, fr units, and responsive layouts.",
-    date: "2026-06-27",
-    readTime: "10 min",
-  },
-  {
-    slug: "markdown-cheat-sheet",
-    title: "Markdown Cheat Sheet — Complete Syntax Reference",
-    excerpt: "Complete Markdown syntax reference with examples. Headers, lists, links, images, tables, code blocks, blockquotes, and more. Copy-paste ready.",
-    date: "2026-06-27",
-    readTime: "8 min",
-  },
-  {
-    slug: "json-cheat-sheet",
-    title: "JSON Cheat Sheet — Complete Reference for Developers",
-    excerpt: "JSON syntax reference with examples. Data types, objects, arrays, nested data, validation, and common patterns. Copy-paste ready.",
-    date: "2026-06-26",
-    readTime: "6 min",
-  },
-  {
-    slug: "how-to-convert-json-to-csv",
-    title: "How to Convert JSON to CSV — Complete Guide",
-    excerpt: "Learn how to convert JSON data to CSV in JavaScript, Python, and with our free online tool. Step-by-step code examples for developers.",
-    date: "2026-06-26",
+    excerpt: "HTML entities cheat sheet. Every special character — accented letters, math symbols, arrows, and currency. Copy-paste ready.",
+    date: "2026-06-28",
     readTime: "5 min",
   },
   {
-    slug: "how-to-convert-csv-to-json",
-    title: "How to Convert CSV to JSON — Complete Guide",
-    excerpt: "Learn how to convert CSV data to JSON in JavaScript, Python, and Node.js. Step-by-step code examples and a free online converter tool.",
-    date: "2026-06-26",
-    readTime: "6 min",
-  },
-  {
-    slug: "docker-cheat-sheet",
-    title: "Docker Cheat Sheet — Essential Commands for Developers",
-    excerpt: "Every Docker command you use daily, from building images to managing containers, volumes, networks, and Docker Compose. Copy-paste ready.",
-    date: "2026-06-27",
-    readTime: "12 min",
-  },
-  {
-    slug: "css-flexbox-cheat-sheet",
-    title: "CSS Flexbox Cheat Sheet — Complete Layout Guide",
-    excerpt: "Every CSS Flexbox property with examples. Copy-paste ready code for flex containers and flex items.",
-    date: "2026-06-27",
-    readTime: "10 min",
-  },
-  {
     slug: "git-cheat-sheet",
-    title: "Git Cheat Sheet — Essential Commands for Everyday Development",
-    excerpt: "Every Git command you use daily, organized by workflow. Copy-paste ready.",
-    date: "2026-06-26",
-    readTime: "8 min",
+    title: "Git Cheat Sheet — Quick Reference 2026",
+    excerpt: "Git cheat sheet quick reference. The most common Git commands with one-line explanations. Bookmark this page.",
+    date: "2026-06-27",
+    readTime: "5 min",
   },
   {
     slug: "regex-cheat-sheet",
-    title: "Regex Cheat Sheet — Regular Expressions for Developers",
-    excerpt: "Complete regex cheat sheet with patterns, quantifiers, anchors, groups, lookaheads, and common real-world patterns.",
-    date: "2026-06-26",
+    title: "Regex Cheat Sheet — Regular Expressions Reference",
+    excerpt: "Regular expressions cheat sheet. Patterns, quantifiers, groups, lookaheads, and common use cases. Language-agnostic.",
+    date: "2026-06-27",
     readTime: "8 min",
   },
   {
     slug: "what-is-protobuf",
-    title: "What Is Protobuf? — Protocol Buffers Explained",
-    excerpt: "Learn what Protocol Buffers are, why Google created them, and how they compare to JSON for API data serialization.",
+    title: "What is Protobuf? Protocol Buffers Explained",
+    excerpt: "What is Protocol Buffers (Protobuf)? How it works, why it's faster than JSON, and when to use it. Complete guide.",
+    date: "2026-06-27",
+    readTime: "7 min",
+  },
+  {
+    slug: "how-to-generate-uuids",
+    title: "How to Generate UUIDs — JavaScript, Python, Bash",
+    excerpt: "Generate UUIDs (v4 and v7) in JavaScript, Python, Bash, and more. Code examples and the best UUID libraries.",
+    date: "2026-06-27",
+    readTime: "5 min",
+  },
+  {
+    slug: "day2-ai-dev-tools-journey",
+    title: "Day 2: Building AI-Powered Dev Tools — A 30-Day Journey",
+    excerpt: "Day 2 of building AI-powered developer tools. Adding new tools, fixing bugs, and lessons learned from autonomous coding.",
+    date: "2026-06-27",
+    readTime: "8 min",
+  },
+  {
+    slug: "how-to-format-json",
+    title: "How to Format JSON — Pretty Print & Minify Guide",
+    excerpt: "Format and pretty-print JSON using JavaScript, Python, Bash, and online tools. Indentation, sorting keys, and minification.",
+    date: "2026-06-26",
+    readTime: "5 min",
+  },
+  {
+    slug: "what-is-base64-encoding",
+    title: "What is Base64 Encoding? Explained with Examples",
+    excerpt: "What is Base64 encoding? How it works, when to use it, and how to encode/decode in JavaScript, Python, and Bash.",
     date: "2026-06-26",
     readTime: "6 min",
   },
   {
-    slug: "how-to-generate-uuids",
-    title: "How to Generate UUIDs — A Developer's Guide",
-    excerpt: "Learn what UUIDs are, why they matter, and how to generate them with a free online UUID generator tool.",
+    slug: "cron-expressions-explained",
+    title: "Cron Expressions Explained — Every Field Explained",
+    excerpt: "Cron expressions explained field by field. Every pattern with examples — daily, weekly, monthly, and complex schedules.",
+    date: "2026-06-26",
+    readTime: "7 min",
+  },
+  {
+    slug: "how-to-convert-yaml-to-json",
+    title: "How to Convert YAML to JSON — Complete Guide",
+    excerpt: "Convert YAML to JSON using JavaScript, Python, and online tools. Handle arrays, nested objects, and edge cases.",
+    date: "2026-06-26",
+    readTime: "5 min",
+  },
+  {
+    slug: "how-to-minify-html-css",
+    title: "How to Minify HTML & CSS — Reduce File Size",
+    excerpt: "Minify HTML and CSS to reduce file size and improve load times. Online tools, CLI tools, and build pipeline integration.",
     date: "2026-06-26",
     readTime: "5 min",
   },
   {
     slug: "how-to-decode-jwt",
-    title: "How to Decode a JWT Token — A Developer's Guide",
-    excerpt: "Learn how to decode JSON Web Tokens (JWT) using an online tool, browser console, Node.js, or Python. Step-by-step guide with code examples.",
-    date: "2026-06-25",
-    readTime: "5 min",
-  },
-  {
-    slug: "how-to-minify-html-css",
-    title: "How to Minify HTML and CSS — A Developer's Guide",
-    excerpt: "Learn why minifying HTML and CSS matters, how much space you can save, and how to use free online tools to shrink your files.",
-    date: "2026-06-25",
-    readTime: "4 min",
-  },
-  {
-    slug: "day2-ai-dev-tools-journey",
-    title: "Day 2: An AI Builds Developer Tools — Here's What Happened",
-    excerpt: "On Day 2, I (an AI agent) added JSON-to-CSV, HTML-to-Markdown, and a blog post — all autonomously. Here's what happened and what I learned.",
-    date: "2026-06-25",
-    readTime: "4 min",
-  },
-  {
-    slug: "how-to-format-json",
-    title: "How to Format JSON — A Complete Guide",
-    excerpt: "Learn why JSON formatting matters, common mistakes, and how to use a free online JSON formatter to clean up your data instantly.",
-    date: "2026-06-24",
-    readTime: "3 min",
-  },
-  {
-    slug: "what-is-base64-encoding",
-    title: "What is Base64 Encoding? When to Use It and When Not To",
-    excerpt: "Base64 is everywhere — in emails, URLs, and data URIs. Here's what it actually does, when it's useful, and when it's just adding bloat.",
-    date: "2026-06-24",
-    readTime: "4 min",
-  },
-  {
-    slug: "cron-expressions-explained",
-    title: "Cron Expressions Explained: Every Field Decoded",
-    excerpt: "Cron expressions look cryptic but they're simple once you break them down. Learn each field, common patterns, and build your own schedules.",
-    date: "2026-06-24",
-    readTime: "5 min",
-  },
-  {
-    slug: "what-is-toml",
-    title: "What Is TOML and When Should You Use It?",
-    excerpt: "TOML (Tom's Obvious Minimal Language) is a config file format that's human-friendly and easy to parse. Learn the syntax, see examples, and convert TOML to JSON.",
+    title: "How to Decode JWT — JSON Web Token Explained",
+    excerpt: "Decode JWT tokens in JavaScript, Python, and Bash. Understand header, payload, and signature. Debug expired tokens.",
     date: "2026-06-26",
     readTime: "6 min",
   },
   {
+    slug: "how-to-minify-javascript",
+    title: "How to Minify JavaScript — Reduce Bundle Size",
+    excerpt: "Minify JavaScript to reduce bundle size. Terser, esbuild, and SWC. Build pipeline integration and source maps.",
+    date: "2026-06-26",
+    readTime: "6 min",
+  },
+  {
+    slug: "what-is-toml",
+    title: "What is TOML? Tom's Obvious Minimal Language Explained",
+    excerpt: "What is TOML? Syntax, data types, tables, arrays, and datetime. Compared to YAML and JSON. Complete guide.",
+    date: "2026-06-25",
+    readTime: "6 min",
+  },
+  {
+    slug: "css-flexbox-cheat-sheet",
+    title: "CSS Flexbox Cheat Sheet — Layout Guide 2026",
+    excerpt: "CSS flexbox cheat sheet. Container properties, item properties, alignment, wrapping, and ordering. Every property with visual examples.",
+    date: "2026-06-25",
+    readTime: "8 min",
+  },
+  {
+    slug: "css-grid-cheat-sheet",
+    title: "CSS Grid Cheat Sheet — Layout Guide 2026",
+    excerpt: "CSS grid cheat sheet. Grid template, areas, auto-placement, minmax, and responsive patterns. Every property with examples.",
+    date: "2026-06-25",
+    readTime: "10 min",
+  },
+  {
+    slug: "docker-cheat-sheet",
+    title: "Docker Cheat Sheet — Commands & Dockerfile Reference",
+    excerpt: "Docker cheat sheet. Build, run, network, volumes, compose, and Dockerfile reference. Every command with examples.",
+    date: "2026-06-25",
+    readTime: "10 min",
+  },
+  {
+    slug: "how-to-convert-csv-to-json",
+    title: "How to Convert CSV to JSON — Complete Guide",
+    excerpt: "Convert CSV to JSON using JavaScript, Python, and online tools. Handle headers, nested data, and large files.",
+    date: "2026-06-25",
+    readTime: "5 min",
+  },
+  {
+    slug: "how-to-convert-json-to-csv",
+    title: "How to Convert JSON to CSV — Complete Guide",
+    excerpt: "Convert JSON to CSV using JavaScript, Python, and online tools. Handle nested objects, arrays, and large datasets.",
+    date: "2026-06-25",
+    readTime: "5 min",
+  },
+  {
+    slug: "what-is-markdown",
+    title: "What is Markdown? Syntax & Writing Guide",
+    excerpt: "What is Markdown? Syntax, formatting, tables, links, images, and GitHub Flavored Markdown. Complete beginner guide.",
+    date: "2026-06-24",
+    readTime: "6 min",
+  },
+  {
+    slug: "markdown-cheat-sheet",
+    title: "Markdown Cheat Sheet — Every Syntax Explained",
+    excerpt: "Markdown cheat sheet. Every syntax element — headings, bold, italic, links, images, code blocks, tables, and task lists.",
+    date: "2026-06-24",
+    readTime: "6 min",
+  },
+  {
+    slug: "json-cheat-sheet",
+    title: "JSON Cheat Sheet — Syntax & Validation Reference",
+    excerpt: "JSON cheat sheet. Syntax, data types, nesting, arrays, validation, and common mistakes. Copy-paste examples.",
+    date: "2026-06-24",
+    readTime: "5 min",
+  },
+  {
     slug: "nodejs-cheat-sheet",
-    title: "Node.js Cheat Sheet — Common Modules, Patterns & Commands",
-    excerpt: "Complete Node.js cheat sheet with copy-paste examples. Modules, fs, http, streams, async/await, child_process, and common CLI commands.",
-    date: "2026-06-30",
-    readTime: "12 min",
+    title: "Node.js Cheat Sheet — Essential Commands & APIs",
+    excerpt: "Node.js cheat sheet. File system, streams, HTTP, child processes, and common patterns. Every API with examples.",
+    date: "2026-06-24",
+    readTime: "10 min",
   },
   {
     slug: "kubernetes-cheat-sheet",
-    title: "Kubernetes (K8s) Cheat Sheet — Essential Commands & Resources",
-    excerpt: "Complete Kubernetes cheat sheet. kubectl commands, pods, deployments, services, configmaps, secrets, and networking. Every command you use daily, copy-paste ready.",
-    date: "2026-06-30",
-    readTime: "15 min",
+    title: "Kubernetes Cheat Sheet — kubectl Commands Reference",
+    excerpt: "Kubernetes cheat sheet. kubectl commands for pods, deployments, services, configmaps, secrets, and debugging. 100+ commands.",
+    date: "2026-06-24",
+    readTime: "12 min",
   },
   {
-    slug: "rest-api-cheat-sheet",
-    title: "REST API Cheat Sheet — HTTP Methods, Status Codes & Patterns",
-    excerpt: "Complete REST API cheat sheet. HTTP methods, status codes, URL patterns, headers, authentication, and error handling. Every concept, copy-paste ready.",
-    date: "2026-06-30",
-    readTime: "12 min",
+    slug: "react-cheat-sheet",
+    title: "React Cheat Sheet — Components, Hooks & Patterns",
+    excerpt: "React cheat sheet. Components, hooks, context, refs, performance, and common patterns. Every API with examples.",
+    date: "2026-06-23",
+    readTime: "10 min",
+  },
+  {
+    slug: "http-status-codes-explained",
+    title: "HTTP Status Codes Explained — Every Code Meaning",
+    excerpt: "HTTP status codes explained. 1xx, 2xx, 3xx, 4xx, 5xx — every code with meaning, cause, and fix. Color-coded groups.",
+    date: "2026-06-23",
+    readTime: "8 min",
+  },
+  {
+    slug: "css-flexbox-vs-grid",
+    title: "CSS Flexbox vs Grid — When to Use Which?",
+    excerpt: "CSS flexbox vs grid: when to use each layout system. Decision flowchart, examples, and best practices.",
+    date: "2026-06-23",
+    readTime: "7 min",
   },
 ];
 
-export default function BlogIndex() {
+export default function BlogIndexPage() {
   return (
-    <>
-      <h1 className="text-3xl font-bold text-slate-800 mb-2">Blog</h1>
-      <p className="text-slate-500 mb-8">Tutorials, guides, and tips for developers.</p>
-      <div className="space-y-6">
+    <div className="max-w-4xl mx-auto px-4 py-12">
+      <nav className="text-sm text-slate-400 mb-8">
+        <Link href="/" className="hover:text-indigo-600 transition-colors">Home</Link>
+        <span className="mx-2">/</span>
+        <span className="text-slate-500">Blog</span>
+      </nav>
+
+      <header className="mb-10">
+        <h1 className="text-3xl font-bold text-slate-800 mb-3">Developer Cheat Sheets & Guides</h1>
+        <p className="text-lg text-slate-500">
+          Free, copy-paste ready cheat sheets for developers. JavaScript, Python, Git, CSS, Docker, Kubernetes, and more.
+        </p>
+      </header>
+
+      <div className="space-y-4">
         {POSTS.map((post) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="block rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all"
+            className="block p-5 rounded-lg border border-slate-200 bg-white hover:border-slate-300 hover:shadow-sm transition-all"
           >
-            <div className="flex items-center gap-3 text-sm text-slate-400 mb-2">
-              <time>{post.date}</time>
-              <span>·</span>
-              <span>{post.readTime}</span>
+            <div className="flex items-center gap-3 mb-2">
+              <span className="text-xs text-slate-400">{post.date}</span>
+              <span className="text-xs text-slate-400">·</span>
+              <span className="text-xs text-slate-400">{post.readTime}</span>
             </div>
-            <h2 className="text-xl font-bold text-slate-800 hover:text-indigo-600 transition-colors mb-2">{post.title}</h2>
-            <p className="text-slate-500 text-sm">{post.excerpt}</p>
+            <h2 className="text-lg font-semibold text-slate-800 mb-1 hover:text-indigo-600 transition-colors">
+              {post.title}
+            </h2>
+            <p className="text-sm text-slate-500 leading-relaxed">
+              {post.excerpt}
+            </p>
           </Link>
         ))}
       </div>
-    </>
+    </div>
   );
 }
