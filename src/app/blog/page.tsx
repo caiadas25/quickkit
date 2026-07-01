@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "yaml-cheat-sheet",
+    title: "YAML Cheat Sheet — Syntax, Examples & Common Patterns",
+    excerpt: "Complete YAML cheat sheet. Scalars, maps, lists, multi-line strings, anchors, and merge keys with copy-paste examples.",
+    date: "2026-07-01",
+    readTime: "10 min",
+  },
+  {
     slug: "aws-cheat-sheet",
     title: "AWS CLI Cheat Sheet — Essential Commands & Examples 2026",
     excerpt: "Complete AWS CLI cheat sheet. EC2, S3, Lambda, IAM, CloudFormation, RDS, and CloudWatch commands with copy-paste examples.",

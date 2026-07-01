@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPages = [
     "git-commands-cheat-sheet",
     "how-to-convert-json-to-xml",
+    "yaml-cheat-sheet",
     "javascript-regex-cheat-sheet",
     "css-selectors-cheat-sheet",
     "npm-cheat-sheet",
