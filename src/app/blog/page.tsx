@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "rust-cheat-sheet",
+    title: "Rust Cheat Sheet — Ownership, Lifetimes & Common Patterns",
+    excerpt: "Complete Rust cheat sheet with copy-paste code. Ownership, borrowing, lifetimes, structs, enums, error handling, and async patterns.",
+    date: "2026-07-01",
+    readTime: "14 min",
+  },
+  {
     slug: "linux-commands-cheat-sheet",
     title: "Linux Commands Cheat Sheet — Essential Commands & Examples 2026",
     excerpt: "Complete Linux commands cheat sheet with copy-paste examples. File operations, text processing, networking, permissions, process management, and system monitoring.",
