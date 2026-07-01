@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "java-cheat-sheet",
+    title: "Java Cheat Sheet — Syntax, Features & Common Patterns",
+    excerpt: "Complete Java cheat sheet. Variables, collections, streams, lambdas, OOP, and multithreading with copy-paste examples.",
+    date: "2026-07-01",
+    readTime: "14 min",
+  },
+  {
     slug: "php-cheat-sheet",
     title: "PHP Cheat Sheet — Syntax, Functions & Common Patterns",
     excerpt: "Complete PHP cheat sheet. Variables, arrays, string functions, loops, classes, and PHP 8+ features with copy-paste examples.",
