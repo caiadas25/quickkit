@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "javascript-cheat-sheet",
+    title: "JavaScript Cheat Sheet — Every Feature Explained",
+    excerpt: "Complete JavaScript cheat sheet with copy-paste code. Variables, functions, arrays, objects, async/await, DOM, ES6+, modules, and error handling.",
+    date: "2026-07-01",
+    readTime: "15 min",
+  },
+  {
     slug: "go-cheat-sheet",
     title: "Go (Golang) Cheat Sheet — Syntax, Concurrency & Common Patterns",
     excerpt: "Complete Go cheat sheet with copy-paste code. Variables, structs, interfaces, goroutines, channels, error handling, and standard library.",

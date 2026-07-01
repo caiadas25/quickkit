@@ -58,6 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tailwind-css-cheat-sheet",
     "vim-cheat-sheet",
     "go-cheat-sheet",
+    "javascript-cheat-sheet",
   ].map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: new Date(),
