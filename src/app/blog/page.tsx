@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "nextjs-cheat-sheet",
+    title: "Next.js Cheat Sheet — App Router, Server Components & Common Patterns",
+    excerpt: "Complete Next.js cheat sheet with copy-paste code. App Router, Server Components, Server Actions, data fetching, middleware, and common patterns.",
+    date: "2026-07-02",
+    readTime: "14 min",
+  },
+  {
     slug: "svelte-cheat-sheet",
     title: "Svelte Cheat Sheet — Svelte 5 Syntax, Runes & Common Patterns",
     excerpt: "Complete Svelte 5 cheat sheet with copy-paste code. Runes ($state, $derived, $effect), reactivity, components, stores, transitions, and common patterns.",
