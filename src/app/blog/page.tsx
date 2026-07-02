@@ -2,6 +2,13 @@ import Link from "next/link";
 
 const POSTS = [
   {
+    slug: "svelte-cheat-sheet",
+    title: "Svelte Cheat Sheet — Svelte 5 Syntax, Runes & Common Patterns",
+    excerpt: "Complete Svelte 5 cheat sheet with copy-paste code. Runes ($state, $derived, $effect), reactivity, components, stores, transitions, and common patterns.",
+    date: "2026-07-01",
+    readTime: "12 min",
+  },
+  {
     slug: "vue-cheat-sheet",
     title: "Vue.js Cheat Sheet — Vue 3 Syntax, Composition API & Common Patterns",
     excerpt: "Complete Vue.js 3 cheat sheet with copy-paste code. Composition API, reactivity, components, routing, state management, and common patterns.",
